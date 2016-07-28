@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class Card : MonoBehaviour {
-	private Material back;
-	private Material face;
+	public Material back;
+	public Material face;
 
    int state = 0;
     float rot = 0f;
